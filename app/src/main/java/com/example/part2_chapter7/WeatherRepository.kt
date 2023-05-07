@@ -30,7 +30,7 @@ object WeatherRepository {
         val point = converter.convert(lat = latitude, lon = longitude)
 
         service.getVillageForecast(
-            serviceKey = "",
+            serviceKey = "CVIIv82mewJQHJ63RBhr2tM95Hy11o94WwpU59fSDh40untUddOuIKa1XfKtV4XNLPvGHxIB6DOSY0cYBwtYBQ==",
             baseDate = baseDateTime.baseDate,
             baseTime = baseDateTime.baseTime,
             nx = point.nx,
